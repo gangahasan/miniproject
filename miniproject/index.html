@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      #landing {
+        display: flex;
+        flex: 0 1 40vw;
+
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+      #image1 {
+        width: 50%;
+        height: 100%;
+      }
+      #landing-text-inner {
+        width: 700px;
+        height: 800px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding-top: 300px;
+        margin-bottom: 0;
+      }
+      .btn {
+        padding: 0.5 rem 2 rem;
+        border: 2 px black;
+        border-radius: 80px;
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 20px;
+      }
+      #View-Photos {
+        text-decoration: none;
+        color: rgb(36, 34, 34);
+      }
+      .btn:hover {
+        background: #a8a5a5;
+      }
+      h2 {
+        color: rgb(131, 127, 127);
+      }
+      footer {
+        text-align: center;
+        padding: 2rem 2rem;
+        margin: auto;
+      }
+      .caption {
+        padding: 0.8rem;
+        text-align: center;
+      }
+      footer h3 {
+        font-size: 3rem;
+        margin-bottom: 0;
+      }
+      @media (min-width: 500px) {
+        #landing {
+          display: flex;
+          height: 100%;
+        }
+
+        #landing-text {
+          height: 100vh;
+        }
+
+        .family {
+          width: 500px;
+          height: auto;
+        }
+      }
+      #photos img {
+        width: 700px;
+        height: 500px;
+        text-align: center;
+      }
+      #header h2 {
+        text-align: center;
+        padding-top: 0;
+        margin-top: 0;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      @media (min-width: 700px) {
+        .btn {
+          padding: 1rem 3rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="landing">
+        <div id="landing-text">
+          <div id="landing-text-inner">
+            <h1>My World</h1>
+            <h2>My Family Photo Album</h2>
+            <button class="btn">
+              <a href="photos" id="View-Photos">View Photos</a>
+            </button>
+          </div>
+        </div>
+
+        <div id="image1">
+          <img class="family" src="assets/family.jpg" alt="Family photo" />
+        </div>
+      </div>
+
+      <div id="photos">
+        <div id="header">
+          <h2>My Album</h2>
+        </div>
+
+        <img src="assets/krishna.jpg" alt="krishna photo" class="center" />
+        <div class="caption">
+          <h3>Photo One</h3>
+          <p>The beautiful memories of krishna.</p>
+        </div>
+
+        <img
+          src="assets/krishna as krishna.jpg"
+          alt="krishna photo"
+          class="center"
+        />
+        <div class="caption">
+          <h3>Photo Two</h3>
+          <p>Krishna as a krishna in the occasion of krishnastami.</p>
+        </div>
+
+        <img src="assets/fathersday.jpg" alt="krishna photo" class="center" />
+        <div class="caption">
+          <h3>Photo Three</h3>
+          <p>fathers day related photo</p>
+        </div>
+
+        <img src="assets/kids.jpg" alt="krishna photo" class="center" />
+        <div class="caption">
+          <h3>Photo Four</h3>
+          <p>Two elder sisters and younger brothers</p>
+        </div>
+        <img src="assets/trip.jpg" alt="krishna photo" class="center" />
+        <div class="caption">
+          <h3>Photo Five</h3>
+          <p>Memory of a wonderla trip</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Get in Touch</h3>
+      <p>Email or call to contact</p>
+      <p>Email:<strong>rgangabhavani@gamil.com</strong></p>
+      <p>Phone:<strong> 9701561861</strong></p>
+    </footer>
+  </body>
+</html>
